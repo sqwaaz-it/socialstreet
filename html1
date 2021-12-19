@@ -4,6 +4,30 @@
   <meta charset="utf-8">
   <title>WebsiteStatistic</title>
  </head>
+ <body>
+ <h1>Статистика сайтов</h1>
+     <p>На нашем сайте вы сможете посмотреть подробную статистику любого сайта, который вам нужен.
+     У вас будет возможность просмотреть в каком состоянии находится сайт на данный момент.
+     Также вы сможете просмотреть какое кол-во человек сейчас просматривает сайт.</p>
+ <a href="index1.html"><button type="button" class="ant-btn ant-btn-primary ant-btn-lg">Сайты-лидеры</button></a>
+ <table width="70px" border="0">
+     <tr>
+        <th>
+           <input type="text" value="" class="ant-input ant-input-lg InlineForm__StyledInput-d9m2mi-1 ensuWt">
+        </th>
+         <th>
+             <a href="WebsiteStatistics.html"><button type="button" class="ant-btn ant-btn-primary ant-btn-lg">Проверить</button></a>
+         </th>
+     </tr>
+ </table>
+ </body>
+</html>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>WebsiteLeaderBoard</title>
+ </head>
  <style>
       table {
     width: 700px;
@@ -13,25 +37,12 @@
     border-spacing: 1px;
    }
    td, th {
-    background: #00FA9A;
+    background: white;
     padding: 5px;
    }
  </style>
- <body bgcolor="#2E8B57">
- <h1>Статистика сайтов</h1>
-     <p>На нашем сайте вы сможете посмотреть подробную статистику любого сайта, который вам нужен.
-     У вас будет возможность просмотреть в каком состоянии находится сайт на данный момент.
-     Также вы сможете просмотреть какое кол-во человек сейчас просматривает сайт.</p>
- <table border="1">
-     <tr>
-        <th>
-           <input type="text" value="" class="ant-input ant-input-lg InlineForm__StyledInput-d9m2mi-1 ensuWt">
-        </th>
-         <th>
-            <button type="button" class="ant-btn ant-btn-primary ant-btn-lg">Проверить</button>
-         </th>
-     </tr>
- </table>
+ <body>
+ <h1>Сайты-лидеры</h1>
  <table border="1">
    <tr>
     <th>Сайт</th>
