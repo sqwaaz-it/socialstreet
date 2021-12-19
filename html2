@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebsiteStatistics</title>
+</head>
+<style>
+      table {
+    width: 70px;
+    height: 30px;
+    background: ;
+    color: black;
+    border-spacing: 1px;
+   }
+   td, th {
+    background: white;
+    padding: 5px;
+   }
+ </style>
+<body>
+ <h1>Статистика</h1>
+<table border="1">
+   <tr>
+    <th>Сайт</th>
+    <th>Кол-во пользователей</th>
+    <th>Макс. кол-во пользователей</th>
+    <th>Состояние</th>
+   </tr>
+   <tr>
+    <td>YouTube</td>
+    <td>1 млрд чел</td>
+    <td>2 млрд чел</td>
+    <td>Активен</td>
+   </tr>
+ </table>
+</body>
+</html>
